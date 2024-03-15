@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message Encryption & Decryption with AES</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <h1>Message Encryption & Decryption with AES</h1>
+  <div class="input-section">
+    <label for="messageInput">Enter your message:</label><br>
+    <textarea id="messageInput" rows="4" cols="50"></textarea>
+  </div>
+  <div class="button-section">
+    <button onclick="encryptMessage()">Encrypt</button>
+    <button onclick="decryptMessage()">Decrypt</button>
+  </div>
+  <div class="output-section">
+    <label for="output">Result:</label><br>
+    <textarea id="output" rows="4" cols="50" readonly></textarea>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
